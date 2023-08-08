@@ -37,6 +37,14 @@ ol, ul {
 	list-style: none;
 }
 
+#abrarpic {
+	height: 20em;
+	width: 20em;
+	border-radius: 100%;
+	margin: 10px 0;
+	float:left;
+	margin-right:2em;
+}
 blockquote, q {
 	quotes: none;
 }
@@ -252,12 +260,17 @@ input, select, textarea {
 		top: -0.5rem;
 	}
 
-	blockquote {
-		border-left: solid 4px #ffffff;
-		font-style: italic;
-		margin: 0 0 2rem 0;
-		padding: 0.5rem 0 0.5rem 2rem;
-	}
+blockquote {
+	border-left: solid 4px #ffffff;
+	font-style: italic;
+	margin: 0 0 2rem 0;
+	padding: 0.5rem 0 0.5rem 2rem;
+	text-align: left;
+	background-color: rgba(51, 56, 61, 0.85);
+	border-radius: 8px;
+	margin-top: 2rem;
+	min-height:25em;
+}
 
 	code {
 		background: rgba(255, 255, 255, 0.075);
@@ -1350,7 +1363,7 @@ input, select, textarea {
 
 			#header nav ul li {
 				padding-left: 0;
-				border-left: solid 1px #ffffff;
+				border-left: solid 1px #11213145;
 			}
 
 				#header nav ul li:first-child {
@@ -1367,14 +1380,18 @@ input, select, textarea {
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
 					border-bottom: 0;
+					background-color:white;
+					color:black;
 				}
 
 					#header nav ul li a:hover {
-						background-color: rgba(255, 255, 255, 0.075);
+						/*background-color: rgba(120, 120, 120, 0.075);*/
+						background-color: rgba(249, 237, 237, 0.5);
 					}
 
 					#header nav ul li a:active {
-						background-color: rgba(255, 255, 255, 0.175);
+						/*background-color: rgba(255, 255, 255, 0.175);*/
+						background-color: rgba(249, 237, 237, 0.3);
 					}
 
 		#header nav.use-middle:after {
@@ -1482,7 +1499,7 @@ input, select, textarea {
 
 					#header nav ul li {
 						border-left: 0;
-						border-top: solid 1px #ffffff;
+						border-top: solid 1px #11213145;
 					}
 
 						#header nav ul li:first-child {
